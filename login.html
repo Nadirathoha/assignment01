@@ -26,7 +26,7 @@
 
 <!-- form -->
 <div class="content">
-    <form action="./index.html" class="form " id="login" onsubmit=" return verify() , return validate()">
+    <form action="./" class="form " id="login" onsubmit="return myFunction()">
         <center><h2 style="font-weight: bold;">Login to your account </h2></center>
         <div class="link-signup" >
             <ul><center>
@@ -35,16 +35,16 @@
         </ul>
         </div>
         <input type="email" class="form-control"  placeholder="Email" id="email" style="margin-top: 3%;">
-        <label for="error" id="error"></label>
+        <span id="msg0" style="color: red;"></span>
         <input type="password" class="form-control" placeholder="Password" id="password"  style="margin-top: 3%;">
-        <label for="error" id="error"></label>
+        <span id="msg1" style="color: red;"></span>
         <a href="" style="float: right;text-decoration: none; padding-bottom: 3%;">Forgot Password?</a>
         <button type="submit" class="btn-submit" id="login-button" style="font-weight: bold;" >CONTINUE</button>
 
     </form>
     
 <!-- sign up -->
-    <form class="form form-hidden" id="createAccount" onsubmit="return validateNumber()">
+    <form class="form form-hidden" id="createAccount" onsubmit="return myFunction()">
         <center><h2 style="font-weight: bold;">Create account </h2></center>
         <div class="link-signup" >
             <ul><center>
