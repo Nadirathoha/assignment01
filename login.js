@@ -31,7 +31,7 @@ function verify() {
         return false;
         }
         else if(password.value==""){
-            email.style.boarder ="1px solid red";
+            password.style.boarder ="1px solid red";
             error.innerHTML="invalid password";
             return false;
             }
